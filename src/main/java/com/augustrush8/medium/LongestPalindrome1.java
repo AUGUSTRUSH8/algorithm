@@ -1,4 +1,4 @@
-package arrayandstring;
+package com.augustrush8.medium;
 
 /**
  * 摘要：回文是一个正读和反读都相同的字符串，
