@@ -10,6 +10,8 @@ public class CoinSum {
     }
 
     public static void solution(int target, int[] coins, int[] res) {
+        res = new int[target + 1];
+        res[0]=1;//注意初始化
         for (int j = 0; j < coins.length; j++) {
             for (int k = coins[j]; k <= target; k++) {
                 res[k] += res[k - coins[j]];
